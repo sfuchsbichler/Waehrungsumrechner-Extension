@@ -1,0 +1,19 @@
+{
+    "name": "Währungsumrechner",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Extension um Währungen umzurechnen",
+    "icons": 
+    {
+        "128": "icon.png"
+    },
+    "action": 
+    {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+    ,
+    "host_permissions": [
+        "https://v6.exchangerate-api.com/*"
+    ]
+}
